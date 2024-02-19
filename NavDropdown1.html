@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./NavDropdown1.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown 2</title>
+  </head>
+  <body>
+    <nav class="nav1">
+      <ul class="simple">
+        <li><a href="#">Abouts us</a></li>
+        <li>
+          <a href="#"> Services</a>
+          <ul class="dropdown">
+            <li><a href="#">Personal Services</a></li>
+            <li><a href="#">Manual Services</a></li>
+            <li><a href="#">Public Services</a></li>
+            <li><a href="#">Informal Services</a></li>
+            <li><a href="#">Private Services</a></li>
+          </ul>
+        </li>
+        <li><a href="#"> Plans</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </nav>
+
+    <div class="fill">
+      <form action="">
+        <h2>Details</h2>
+        <fieldset>
+          <label for="name">First Name :</label>
+          <input type="text" id="name" required placeholder="First Name" />
+          <br />
+          <label for="name">Last Name :</label>
+          <input type="text" id="name" required placeholder="Last Name" />
+          <br />
+          <label for="dob">DOB :</label>
+          <input type="date" id="dob" required placeholder="" />
+          <br />
+         
+          <label for="current"> Current Date :</label>
+          <input type="text" id="current" required placeholder="Current Date" />
+          <br />
+          
+          <label for="email">Email Id :</label>
+          <input type="email" required placeholder="Enter email" id="email" />
+          <br />
+          <label for="Passsword">passsword :</label>
+          <input
+            type="Passsword"
+            required
+            placeholder="Enter Passsword"
+            id="Passsword"
+          />
+          <br />
+
+          <input type="checkbox" required /><label for=""> Agree</label>
+          <br />
+          <button>Submit</button>
+        </fieldset>
+        
+      </form>
+    </div>
+    
+  </body>
+</html>
